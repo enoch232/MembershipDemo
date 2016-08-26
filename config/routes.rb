@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   resources :sessions
   resources :subscriptions
   resources :posts
+  resources :users
   root "posts#index"
 end
